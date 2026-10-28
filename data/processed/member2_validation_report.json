@@ -1,0 +1,11 @@
+{
+  "input_units": 57364,
+  "excluded_area_under_25_sqm": 1028,
+  "validated_units": 56336,
+  "minimum_area_threshold_sqm": 25,
+  "minimum_validated_area_sqm": 25.010982752393385,
+  "invalid_geometries_input": 0,
+  "duplicate_ids_input": 0,
+  "null_metro_distances_input": 0,
+  "crs": "EPSG:4326"
+}

@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "title": "Member 4 illustrative FSI rules",
+    "status": "UNVERIFIED_EXAMPLE_VALUES",
+    "study_area": "Koramangala–HSR Layout–Bellandur corridor, Bengaluru",
+    "source_note": "Thresholds and FSI/TOD values below are copied from the Member 4 implementation guide example. They have NOT been independently verified against currently applicable official BDA/Bengaluru planning regulations. Do not describe outputs as legally certified until this table is verified and updated.",
+    "tod_distance_m": 500.0,
+    "road_width_note": "Uses access_road_width_m from Member 2; inspect whether source values were observed or imputed."
+  },
+  "zoning_rules": [
+    {"road_min_m": 18.0, "base_fsi": 2.50, "tod_bonus": 0.50, "zone": "Commercial/Mixed"},
+    {"road_min_m": 12.0, "base_fsi": 2.00, "tod_bonus": 0.25, "zone": "Residential R2"},
+    {"road_min_m": 9.0, "base_fsi": 1.75, "tod_bonus": 0.00, "zone": "Residential R1"},
+    {"road_min_m": 0.0, "base_fsi": 1.50, "tod_bonus": 0.00, "zone": "Narrow Access"}
+  ]
+}

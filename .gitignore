@@ -1,0 +1,38 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python byte-compiled files & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+pyrightconfig.json
+
+# OSMnx HTTP cache and local run caches
+cache/
+.cache/
+
+# Environment files and logs
+.env
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large raw raster files & downloaded datasets (> 10 MB / Kaggle dataset)
+data/raw/*.tif
+data/raw/bgr_house_prices_kaggle.csv
+
+# Large processed spatial vector outputs (> 25 MB - 75 MB)
+data/processed/*.geojson

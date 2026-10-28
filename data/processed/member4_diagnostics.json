@@ -1,0 +1,29 @@
+{
+  "rows_scored": 56336,
+  "ngtn_buffer_rows_zeroed": 1469,
+  "ahp_weights": {
+    "capacity_gap_sqm": 0.3981919620968797,
+    "predicted_price_sqft": 0.24224579096823257,
+    "network_dist_metro_m": 0.1692879281368722,
+    "poi_count_1km": 0.11830299506270056,
+    "environmental_risk_score": 0.071971323735315
+  },
+  "ahp_lambda_max": 5.1111303708359355,
+  "ahp_consistency_ratio": 0.024805886347307023,
+  "ahp_consistency_pass": true,
+  "fsi_rules_status": "UNVERIFIED_EXAMPLE_VALUES",
+  "missing_road_width_rows_fallback_to_narrow_access": 62,
+  "note": "Capacity gap is an estimate on OSM building-footprint spatial units, not a cadastral/legal parcel determination. Verify FSI rules before legal interpretation.",
+  "input_path": "data\\processed\\parcels_clustered.geojson",
+  "output_path": "data\\processed\\parcels_scored_final.geojson",
+  "input_crs": "EPSG:4326",
+  "output_crs": "EPSG:4326",
+  "rules_metadata": {
+    "title": "Member 4 illustrative FSI rules",
+    "status": "UNVERIFIED_EXAMPLE_VALUES",
+    "study_area": "Koramangala\u2013HSR Layout\u2013Bellandur corridor, Bengaluru",
+    "source_note": "Thresholds and FSI/TOD values below are copied from the Member 4 implementation guide example. They have NOT been independently verified against currently applicable official BDA/Bengaluru planning regulations. Do not describe outputs as legally certified until this table is verified and updated.",
+    "tod_distance_m": 500.0,
+    "road_width_note": "Uses access_road_width_m from Member 2; inspect whether source values were observed or imputed."
+  }
+}
